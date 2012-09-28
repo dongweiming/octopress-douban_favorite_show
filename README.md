@@ -1,7 +1,7 @@
 octopress-douban_favorite_show
 ==============================
 
-Display douban favorite on the awesome blog system Octopress show
+Display douban favorite show on the awesome blog system Octopress 
 
 ## Octopress Plugin For DOUBAN
 
