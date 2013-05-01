@@ -1,7 +1,7 @@
 {% if site.douban_user %}
 <section>
   <h1>豆瓣阅读</h1>
-  <script type="text/javascript" src="http://www.douban.com/service/badge/{{ site.douban_user }}/?{% if site.douban_show %}select={{ site.douban_show }}&amp;{% endif %}{% if site.douban_display %}select={{ site.douban_display }}&amp;{% endif %}n={{ site.douban_total_show }}&amp;columns={{ site.douban_percolumn }}&amp;{% if site.douban_img_style %}picsize={{ site.douban_img_style }}&amp;{% endif %}{% if site.douban_hidelogo %}hidelogo={{ site.douban_hidelogo }}&amp;{% endif %}{% if site.douban_hideself %}hideself={{ site.douban_hideself }}&amp;{% endif %}cat={{ site.douban_display_category }}" ></script>
+  <script type="text/javascript" src="http://www.douban.com/service/badge/{{ site.douban_user }}/?{% if site.douban_show %}show={{ site.douban_show }}&amp;{% endif %}{% if site.douban_display %}select={{ site.douban_display }}&amp;{% endif %}n={{ site.douban_total_show }}&amp;columns={{ site.douban_percolumn }}&amp;{% if site.douban_img_style %}picsize={{ site.douban_img_style }}&amp;{% endif %}{% if site.douban_hidelogo %}hidelogo={{ site.douban_hidelogo }}&amp;{% endif %}{% if site.douban_hideself %}hideself={{ site.douban_hideself }}&amp;{% endif %}cat={{ site.douban_display_category }}" ></script>
   <a href="https://www.douban.com/people/{{site.douban_user}}">@{{site.douban_people}}</a> on Douban 
 </section>
 {% endif %}
