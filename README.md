@@ -25,7 +25,7 @@ default_asides: [asides/recent_posts.html,  asides/github.html, asides/delicious
 
 ```yaml
 #Douban
-douban_user: 62943420 #The Doban Id ,Leave it blank to display this plugin
+douban_user: 62943420 #Cannot be blank, either you douban id (eight-digit number) or your douban account name
 douban_people: #Your Douban Name 
 douban_apikey: 0ec15d10bdd1901a2c4417323974b04e #YOu can leave it blank
 douban_show:  #The type of display ,include: dolist(doing),wishlist(want to),collection(seen), Leave it blank to random
